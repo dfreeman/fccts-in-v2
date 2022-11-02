@@ -1,0 +1,12 @@
+{
+  "name": "fcct-support",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./*.js"
+  },
+  "dependencies": {
+    "ember-source": "~4.8.0",
+    "ember-template-imports": "^3.3.1"
+  }
+}
