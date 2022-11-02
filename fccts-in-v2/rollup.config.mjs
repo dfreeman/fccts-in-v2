@@ -1,5 +1,6 @@
-import babel from '@rollup/plugin-babel';
+import { babel } from '@rollup/plugin-babel';
 import copy from 'rollup-plugin-copy';
+import firstClassComponentTemplates from 'fcct-support/rollup-plugin';
 import { Addon } from '@embroider/addon-dev/rollup';
 
 const addon = new Addon({
@@ -21,6 +22,8 @@ export default {
     // "app" tree. Things in here should also be in publicEntrypoints above, but
     // not everything in publicEntrypoints necessarily needs to go here.
     addon.appReexports(['components/**/*.js']),
+
+    firstClassComponentTemplates(),
 
     // This babel config should *not* apply presets or compile away ES modules.
     // It exists only to provide development niceties for you, like automatic
