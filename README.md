@@ -1,37 +1,10 @@
-fccts-in-v2
+Archived
 ==============================================================================
 
-[Short description of the addon.]
+This was an experiment to demonstrate how to use `<template>` in v2 addons.
 
+The learnings here have been adopted in official blueprints, and you can start a new project with
 
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v3.28 or above
-* Embroider or ember-auto-import v2
-
-
-Installation
-------------------------------------------------------------------------------
-
+```bash
+npx ember-cli addon my-addon -b @embroider/addon-blueprint
 ```
-ember install fccts-in-v2
-```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
